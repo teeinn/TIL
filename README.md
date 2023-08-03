@@ -12,5 +12,5 @@
   * [from_orm](https://github.com/teeinn/TIL/blob/main/Pydantic/from_orm.md)
 
 * **Synchronous & Asynchronous**
-  * [Synch, Async, Blocking, Non-Blocking](https://github.com/teeinn/TIL/blob/main/Synchronous%20%26%20Asynchronous/Synchronous.md)
+  * [Synch, Async, Blocking, Non-Blocking](https://github.com/teeinn/TIL/blob/main/Synchronous%20%26%20Asynchronous/Sync%2C%20Async%2C%20Blocking%2C%20Non-Blocking.md)
 
