@@ -7,6 +7,7 @@
   * [Synch, Async, Blocking, Non-Blocking](https://github.com/teeinn/TIL/blob/main/Synchronous%20%26%20Asynchronous/Sync%2C%20Async%2C%20Blocking%2C%20Non-Blocking.md)
 * **Python**
   * [CPython Interpreter](https://github.com/teeinn/TIL/blob/main/Python/CPython%20Interpreter.md)
+  * [Python GIL](https://github.com/teeinn/TIL/blob/main/Python/Python%20GIL.md)
 
 * **OAuth2.0**
   * [OAuth2.0](https://github.com/teeinn/TIL/blob/main/OAuth2.0/OAuth2.0.md)
