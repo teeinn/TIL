@@ -1,4 +1,5 @@
-Iterators와 Generators가 무엇인지 알아보고, 둘의 차이점을 비교해 보자. (reference: https://www.datacamp.com/tutorial/python-iterators-generators-tutorial)![Alt text](iterator_generator.png)
+Iterators와 Generators가 무엇인지 알아보고, 둘의 차이점을 비교해 보자. (reference: https://www.datacamp.com/tutorial/python-iterators-generators-tutorial)
+![Alt text](iterator_generator.png)
 - - -
 ### **Iterables and Iterators**
 
