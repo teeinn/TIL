@@ -8,6 +8,7 @@
 * **Python**
   * [CPython Interpreter](https://github.com/teeinn/TIL/blob/main/Python/CPython%20Interpreter.md)
   * [Python GIL](https://github.com/teeinn/TIL/blob/main/Python/Python%20GIL.md)
+  * [Data Types](https://github.com/teeinn/TIL/blob/main/Python/Data%20Types.md)
 
 * **OAuth2.0**
   * [OAuth2.0](https://github.com/teeinn/TIL/blob/main/OAuth2.0/OAuth2.0.md)
