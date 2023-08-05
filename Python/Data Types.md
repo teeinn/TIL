@@ -91,8 +91,8 @@ set은 순서가 존재하지 않는 collection 데이터 타입이다. mutable�
         
         **Deletion**: 삭제도 조회와 마찬가지로 O(1)의 기본적인 시간복잡도를 갖고 worst case의 경우 O(n)이 된다.
         
-        기본적으로 Linked list를 이용하지만 위의 worst case 처럼 길이가 길어지면 Binary Search Tree를 이용해 O(log n)의 시간복잡도로 구성할 수 있다.  ![Alt text](hashmap_separate_chaining.png)
-        
+        기본적으로 Linked list를 이용하지만 위의 worst case 처럼 길이가 길어지면 Binary Search Tree를 이용해 O(log n)의 시간복잡도로 구성할 수 있다.
+        ![Alt text](hashmap_separate_chaining.png)
     2. **open addressing**
         
         비어있는 slot을 정해진 규칙에 따라 찾는 방법이다. separate chaining 방식은 새로 메모리를 할당하지만, open addressing은 추가적인 메모리를 사용하지 않으므로 상대적으로 메모리를 적게 사용한다. 크게 3가지 방법으로 나뉜다.
