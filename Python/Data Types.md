@@ -72,7 +72,7 @@ python의 datatype에는 Numeric / Sequence Type / Set / Dictionary / Boolean / 
         
     - **Hashmap (Dictionary)의 동작 원리**
         
-        Direct-address table 방식은 불필요한 공간이 낭비 된다는 점과, key가 다양한 자료형을 담을 수 없다는 단점을 가지고 있었다. hashmap을 이를 보완하는데, hash function을 정의해 k를 대입하여 고유한 index 값을 뽑아냈다. 
+        Direct-address table 방식은 불필요한 공간이 낭비 된다는 점과, key가 다양한 자료형을 담을 수 없다는 단점을 가지고 있었다. hashmap을 이를 보완하는데, hash function을 정의해 k를 대입하여 고유한 index 값을 뽑아냈다. ![Alt text](hashmap.png)
         
     - **Hashmap (Dictionary)의 Collision과 해결방법**
         
@@ -88,7 +88,7 @@ python의 datatype에는 Numeric / Sequence Type / Set / Dictionary / Boolean / 
             
             **Deletion**: 삭제도 조회와 마찬가지로 O(1)의 기본적인 시간복잡도를 갖고 worst case의 경우 O(n)이 된다.
             
-            기본적으로 Linked list를 이용하지만 위의 worst case 처럼 길이가 길어지면 Binary Search Tree를 이용해 O(log n)의 시간복잡도로 구성할 수 있다.
+            기본적으로 Linked list를 이용하지만 위의 worst case 처럼 길이가 길어지면 Binary Search Tree를 이용해 O(log n)의 시간복잡도로 구성할 수 있다.![Alt text](hashmap_separate_chaining.png)
             
         2. **open addressing**
             
