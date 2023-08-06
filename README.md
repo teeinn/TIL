@@ -10,9 +10,7 @@
   * [Python GIL](https://github.com/teeinn/TIL/blob/main/Python/Python%20GIL.md)
   * [Data Types](https://github.com/teeinn/TIL/blob/main/Python/Data%20Types.md)
   * [Iterator and Generator](https://github.com/teeinn/TIL/blob/main/Python/Iterator%20and%20Generator.md)
-
-* **OAuth2.0**
-  * [OAuth2.0](https://github.com/teeinn/TIL/blob/main/OAuth2.0/OAuth2.0.md)
+  * [Simple coroutines and Generator based coroutines](https://github.com/teeinn/TIL/blob/main/Python/Simple%20coroutines%20and%20Generator%20based%20coroutines.md)
 
 
 
