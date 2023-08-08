@@ -117,7 +117,7 @@
 
 - ## **Generator based coroutines**
     
-    python에서는 generators와 coroutines으로 사용되기 위한 generators를 구별하기 시작했다. 이러한 coroutines을 generator based coroutines 이라고 하고 함수를 정의할 때 @asynio.coroutine을 사용하도록 장려하고 있다. 중요한 점은 ‘yield from’의 사용이다. 
+    python에서는 generators와 coroutines으로 사용되기 위한 generators를 구별하기 시작했다. 이러한 coroutines을 generator based coroutines 이라고 하고 함수를 정의할 때 @asynio.coroutine을 사용하도록 장려하고 있다. 중요한 점은 ‘yield from’의 사용이다. 제너레이터 함수에서 다른 제너레이터를 호출하거나 값을 전달할 때 사용되고, 이를 통해 중첩된 제너레이터 호출을 간결하게 표현하고 코드의 가독성과 유지보수성을 향상 시킬 수 있다. 
     
     - **yield from**
         
