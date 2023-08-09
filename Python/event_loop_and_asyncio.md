@@ -308,3 +308,8 @@
     Calling API 2 ...
     100 200 API failed
     ```
+
+    <br />
+    <br />
+
+reference: https://www.pythontutorial.net/python-concurrency/python-asyncio-gather/, https://realpython.com/async-io-python/
