@@ -30,6 +30,8 @@ numeric data type은 숫자 값이다. 값에는 Integer, Float, Complex number�
 
 
 
+    <br />
+    <br />
 
 ### **Set**
 set은 순서가 존재하지 않는 collection 데이터 타입이다. mutable하고 값의 중복을 허용하지 않는다.
@@ -46,7 +48,9 @@ set은 순서가 존재하지 않는 collection 데이터 타입이다. mutable�
     
     Union, Intersection, Difference O(len(A)+len(B))
 
-    
+
+    <br />
+    <br />    
         
 ### **Dictionary**
 순서가 없는 collection data type이고, key : value 쌍으로 저장된다. value에는 어떠한 데이터 타입의 값도 저장이 될 수 있고, 중복될 수 있으며 mutable하다. 그러나 key는 유일무의한 값이어야 하기 때문에 중복될 수 없고, immutable하다.
