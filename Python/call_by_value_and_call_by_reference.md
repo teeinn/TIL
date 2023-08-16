@@ -1,4 +1,7 @@
-python은 모든 것을 object로 취급한다. b = 3 이라는 assignment를 보았을 때, b 라는 변수에 할당이 된 것은 메모리에 올라간 값 3이 아니라 그 메모리를 가리키는 주소 & reference count & data type의 정보가 저장된 pyobject이다. 아래의 그림을 살펴보면 더 확실히 이해할 수 있다. ![Alt text](pyobject.png)만약 b = [1, 2, 3]의 리스트를 assign 했다면, 데이터 사이즈에 대한 정보가 추가된 pyvarobject를 b에 할당하게 된다. python의 리스트에 다양한 데이터 형을 추가할 수 있는 이유가 바로 여기에 있다.  ![Alt text](pyvarobject.png)
+python은 모든 것을 object로 취급한다. b = 3 이라는 assignment를 보았을 때, b 라는 변수에 할당이 된 것은 메모리에 올라간 값 3이 아니라 그 메모리를 가리키는 주소 & reference count & data type의 정보가 저장된 pyobject이다. 아래의 그림을 살펴보면 더 확실히 이해할 수 있다. ![Alt text](pyobject.png)
+    <br />
+    <br />  
+만약 b = [1, 2, 3]의 리스트를 assign 했다면, 데이터 사이즈에 대한 정보가 추가된 pyvarobject를 b에 할당하게 된다. python의 리스트에 다양한 데이터 형을 추가할 수 있는 이유가 바로 여기에 있다.  ![Alt text](pyvarobject.png)
     <br />
     <br />   
     <br />
@@ -27,4 +30,4 @@ b = [1, 2]
 myfunc(b)
 ```
 
-b는 메모리에 올려진 리스트 값들을 가리키는 pyvarobject를 참조하고 있다. 이를 myfunc에 인자로 넘겨주면, myfunc(a)에서 a는 같은 pyvarobject를 참조하게 된다. 리스트는 mutable한 객체이므로 a.append로 리스트에 값을 추가하면, 새로운 리스트를 생성하는 것이 아니라 원래의 리스트가 변경된다. 따라서, 이를 call by reference라고 하는 것이다.
+b는 메모리에 올려진 리스트 값들을 가리키는 pyvarobject를 참조하고 있다. 이를 myfunc에 인자로 넘겨주면, myfunc(a)에서 a는 같은 pyvarobject를 참조하게 된다. 리스트는 mutable한 객체이므로 a.append로 리스트에 값을 추가하면, 새로운 리스트를 생성하는 것이 아니라 원래의 리스트가 변경된다. 따라서, 이를 call by reference라고 하는 것이다.![Alt text](call_by_reference.png)
