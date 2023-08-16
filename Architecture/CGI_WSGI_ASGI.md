@@ -58,7 +58,7 @@ Apache나 Nginx 같은 웹서버는 클라이언트로부터 온 HTTP Request를
     
     - **단점**: 웹 서버의 발전으로 wsgi는 한계를 보이기 시작했다. wsgi는 공식적으로 웹 소켓을 처리할 수 있는 능력이 없고, http/2와도 작동할 수 없다. 또한 async나 await를 사용할 수 없다.
         
-        wsgi는 한번에 하나의 request를 받고 response 해준다. 따라서, 애플리케이션을 비동기적으로 프로그래밍 했다고 하더라도 동기적인 호출 방식으로 동작하는 것이 큰 단점이다. 비동기적으로 구현하고 싶다면 multi-processing / threading을 구성해야 한다. single thread는 single request만 처리할 수 있기 때문이다. 진정한 비동기 처리를 하고 싶다면 ASGI를 사용하면 된다.
+        wsgi는 한번에 하나의 request를 받고 response 해준다. 따라서, 애플리케이션을 비동기적으로 프로그래밍 했다고 하더라도 동기적인 호출 방식으로 동작하는 것이 큰 단점이다. 동시성을 구현하고 싶다면 multi-processing / threading을 구성해야 한다. single thread는 single request만 처리할 수 있기 때문이다. 진정한 비동기 처리를 하고 싶다면 ASGI를 사용하면 된다.
         
 
 - ### **ASGI**
