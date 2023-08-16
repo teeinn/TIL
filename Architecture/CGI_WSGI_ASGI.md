@@ -1,4 +1,4 @@
-Web application server의 보통의 구조는 다음의 그림과 같다. ![Alt text](web_application_architecture.png)
+**Web application server**의 보통의 구조는 다음의 그림과 같다. ![Alt text](web_application_architecture.png)
 
 - **Web server**: Apache or Nginx 같은 유명한 web server는 static content (HTML, image, video..)등을 보내주고 사용자가 수동으로 코딩을 할 필요 없이 configuration 파일을 수정해서 원하는 static file을 보내줄 수 있다. 다음은 nignx configuration file의 예시를 보여준다.
     
