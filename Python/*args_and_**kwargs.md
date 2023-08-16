@@ -23,7 +23,10 @@ TypeError: adder() takes 3 positional arguments but 5 were given
 ```
 
 당연하게도 인자를 초과해서 받았다는 오류가 난다. 
+    <br />
+    <br />   
 
+---
 프로그래밍을 하다보면 우리는 몇 개의 인자를 전달해야 할지 불명확한 상황이 있을 것이다. 이럴 때 사용할 수 있는 것이 바로 *args와 **kwargs이다. 
 
 1. *args - Non Keyword Arguments
@@ -34,9 +37,11 @@ TypeError: adder() takes 3 positional arguments but 5 were given
     <br />
     <br />
     <br />
+
+
 ### *args
     
-몇 개의 인자를 전달할지 불명확한 상황일 때, 그리고 키워드가 존재하지 않는 인자들을 전달할 때 사용한다. 이 인자들은 tuple로 전달이 된다. 다음의 예시를 보자.
+몇 개의 인자를 전달할지 불명확한 상황일 때, 그리고 키워드가 존재하지 않는 인자들을 전달할 때 사용한다. 이 인자들은 **tuple**로 전달이 된다. 다음의 예시를 보자.
 
 ```python
     def adder(*num):
@@ -59,8 +64,8 @@ Sum: 17
     
 
 ### **kwargs
-    
-    인자의 개수가 정해지지 않았을 때, 그리고 키워드가 존재하는 인자를 보낼 때 쓰인다. 인자는 dictionary로 전달이 된다. 다음의 예시를 보면 확실히 감이 올 것이다. 
+
+인자의 개수가 정해지지 않았을 때, 그리고 키워드가 존재하는 인자를 보낼 때 쓰인다. 인자는 **dictionary**로 전달이 된다. 다음의 예시를 보면 확실히 감이 올 것이다. 
     
 ```python
 def intro(**data):
