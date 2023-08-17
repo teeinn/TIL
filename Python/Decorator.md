@@ -61,8 +61,6 @@ print(final_value()) # 2
 
 위의 코드에서 볼 수 있듯이, example_function 자체를 수정하지 않았고, 다른 함수를 정의해서 기능을 확장시켰다. 이것이 데코레이터의 역할이다. 
 <br />
-<br />
-
 python에서는 데코레이터 함수를 정의하기 위해 **@ syntax**를 사용한다. 이를 위의 코드에 사용해보면 다음과 같다. 
 
 ```python
@@ -75,8 +73,6 @@ final_value = add_one_decorator(example_function)
 ```
 
 **데코레이터가 붙은 example_function을 호출하게 되면 add_one 함수 객체가 반환이 된다.** 
-
-<br />
 <br />
 이제 데코레이터 함수가 인자를 받는 방법을 알아보자. 예를 들어, 다음의 코드를 보면 add 함수에 인자 a, b를 전달하고 있다. 그러나 반환된 add_one 함수 객체는 아무런 인자도 받고 있지 않기 때문에 에러가 난다.
 
