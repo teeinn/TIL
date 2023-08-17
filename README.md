@@ -16,6 +16,7 @@
   * [Call by Value & Call by Reference](https://github.com/teeinn/TIL/blob/main/Python/call_by_value_and_call_by_reference.md)
   * [Namespaces, Scope, global, nonlocal](https://github.com/teeinn/TIL/blob/main/Python/namespace_scope_global_nonlocal.md)
   * [Decorator](https://github.com/teeinn/TIL/blob/main/Python/Decorator.md)
+  * [Deep copy and Shallow copy](https://github.com/teeinn/TIL/blob/main/Python/Decorator.md)
 * **Architecture**
   * [CGI, WSGI, ASGI](https://github.com/teeinn/TIL/blob/main/Architecture/CGI_WSGI_ASGI.md)
 
