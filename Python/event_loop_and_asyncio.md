@@ -11,7 +11,7 @@
     <br />
 - ### **Event Loop**
     
-    asyncio package는 동시성 구현을 위해 event loop를 사용한다. 이 **event loop는 asyncio program의 핵심**이 되는데, 비동기 tasks와 callbacks을 실행하고, network IO를 처리하고, subprocess를 실행한다. 
+    asyncio package는 동시성 구현을 위해 event loop를 사용한다. 이 **event loop는 asyncio program의 핵심**이 되는데, 비동기 tasks와 callbacks을 실행하고, network IO를 처리하고, subprocess를 실행한다. 즉, event loop는 비동기 프로그래밍에서 task를 switching하는 것을 담당한다.
     
     event loop의 동작을 이해하기 위해 예시를 살펴보자. 데이터를 파일에 작성하는 프로그램을 짠다고 생각했을 때, 다음과 같은 단계를 거치게 된다. 
 
