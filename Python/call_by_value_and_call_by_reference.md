@@ -19,6 +19,8 @@ python은 모든 것을 object로 취급한다. b = 3 이라는 assignment를 �
 ```
 
 b는 메모리에 올려진 값 3에 대한 정보가 저장된 pyobject를 가리키고 있다. 여기서 myfunc(b)를 전달하게 되면, myfunc(a)에서 a는 처음에는 같은 pyobject를 참조하게 된다. 이때, reference count는 2개가 된다. 그러나 myfunc 안에서 a = 2를 할당하게 되면, 새로운 값 2가 메모리에 올라가고 a는 이를 가리키는 pyobject를 참조하게 된다. 따라서, immutable한 int 형 데이터가 인자로 넘겨졌을 때, 함수내에서 그 인자에 변경을 가하면 전달 받았던 값과 상관없는 새로운 객체를 가리키게 되므로, call by value라고 할 수 있다. 
+<br />
+<br />
 
 다음으로, **mutable한 객체가 인자로 전달 됐을 때, 이는 call by reference 형식으로 동작한다**. 다음의 예시를 보자. 
 
