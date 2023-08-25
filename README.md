@@ -19,5 +19,15 @@
   * [Deep copy and Shallow copy](https://github.com/teeinn/TIL/blob/main/Python/deepcopy_shallowcopy.md)
 * **Architecture**
   * [CGI, WSGI, ASGI](https://github.com/teeinn/TIL/blob/main/Architecture/CGI_WSGI_ASGI.md)
+* **Kubernetes**
+  * [StatefulSet]()
+  * [Ingress & Ingress Controller]()
+  * [minReplicas & maxReplicas]()
+  * [livenessprobe & readinessprobe]()
+  * [kubeconfig]()
+* **Gitaction**
+  * [tag & branch]()
+
+
 
 
