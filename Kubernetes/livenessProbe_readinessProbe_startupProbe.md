@@ -123,3 +123,8 @@ readinessProbe:
     initialDelaySeconds: 5
     periodSeconds: 10
 ```
+
+<br/>
+<br/>
+
+reference: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
