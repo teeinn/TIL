@@ -23,7 +23,7 @@
   * [StatefulSet]()
   * [Ingress & Ingress Controller]()
   * [minReplicas & maxReplicas]()
-  * [livenessprobe & readinessprobe]()
+  * [livenessProbe & readinessProbe & startupProbe]()
   * [kubeconfig](https://github.com/teeinn/TIL/blob/main/Kubernetes/kubeconfig.md)
 * **Gitaction**
   * [tag & branch]()
