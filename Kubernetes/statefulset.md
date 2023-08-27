@@ -72,3 +72,8 @@ spec:
         requests:
           storage: 5Gi
 ```
+
+
+<br/>
+<br/>
+reference: https://kubernetes.io/ko/docs/concepts/workloads/controllers/statefulset/, https://loft.sh/blog/kubernetes-statefulset-examples-and-best-practices/

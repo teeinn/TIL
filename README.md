@@ -20,7 +20,7 @@
 * **Architecture**
   * [CGI, WSGI, ASGI](https://github.com/teeinn/TIL/blob/main/Architecture/CGI_WSGI_ASGI.md)
 * **Kubernetes**
-  * [StatefulSet]()
+  * [StatefulSet](https://github.com/teeinn/TIL/blob/main/Kubernetes/statefulset.md)
   * [Ingress & Ingress Controller]()
   * [minReplicas & maxReplicas]()
   * [livenessProbe & readinessProbe & startupProbe](https://github.com/teeinn/TIL/blob/main/Kubernetes/livenessProbe_readinessProbe_startupProbe.md)
