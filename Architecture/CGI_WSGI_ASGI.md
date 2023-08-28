@@ -54,11 +54,12 @@ Apache나 Nginx 같은 웹서버는 클라이언트로부터 온 HTTP Request를
         return [b'Greetings universe']
     ```
     
-    - **WSGI frameworks의 종류**는 Bottle, Flask, Falcon, Django 등이 있고, **WSGI server**는 Gunicorn, uWSGI, Apache가 있다.
+    - **WSGI frameworks의 종류**는 Bottle, Flask, Falcon, Django 등이 있고, **WSGI server**는 Gunicorn, uWSGI, Apache가 있다.         Django와 Flask 모두 WSGI를 사용하여 웹 서버와 웹 애플리케이션 간의 통신을 처리한다. Django는 자체적으로 WSGI 서버를 내장하고 있어 개발 및 디버깅 단계에서 사용될 수 있고, 배포 단계에서는 보통 Gunicorn, uWSGI, Apache와 연동하여 사용된다. Flask도 마찬가지로 내장된 개발 서버를 사용하거나 Gunicorn, uWSGI, Nginx와 연동하여 운영 환경에서 실행된다.
     
     - **단점**: 웹 서버의 발전으로 wsgi는 한계를 보이기 시작했다. wsgi는 공식적으로 웹 소켓을 처리할 수 있는 능력이 없고, http/2와도 작동할 수 없다. 또한 async나 await를 사용할 수 없다.
         
         wsgi는 한번에 하나의 request를 받고 response 해준다. 따라서, 애플리케이션을 비동기적으로 프로그래밍 했다고 하더라도 동기적인 호출 방식으로 동작하는 것이 큰 단점이다. 동시성을 구현하고 싶다면 multi-processing / threading을 구성해야 한다. single thread는 single request만 처리할 수 있기 때문이다. 진정한 비동기 처리를 하고 싶다면 ASGI를 사용하면 된다.
+
         
 
 - ### **ASGI**
@@ -77,7 +78,9 @@ Apache나 Nginx 같은 웹서버는 클라이언트로부터 온 HTTP Request를
         ```
         
     
-    - receive and send는 비동기적으로 동작하기 때문에, multiple incoming events와 outgoing events를 허용할 수 있다. 이렇게 ASGI를 이용하게 되면 비동기 이벤트 루프를 사용하여 여러 I/O 작업을 병렬로 처리할 수 있고, 다중 스레드나 다중 프로세스를 활용하면 더 효율적인 처리가 가능하다.
+    - receive and send는 비동기적으로 동작하기 때문에, multiple incoming events와 outgoing events를 허용할 수 있다. 이렇게 ASGI를 이용하게 되면 비동기 이벤트 루프를 사용하여 여러 I/O 작업을 병렬로 처리할 수 있고, 다중 스레드나 다중 프로세스를 활용하면 더 효율적인 처리가 가능하다. 
+
+    - 프레임워크 중에는 FastAPI가 ASGI를 사용한다. FastAPI는 비동기 처리를 효과적으로 활용하기 위해 ASGI를 선택했고, 실시간 데이터 처리나 대량의 동시 요청을 처리하는데 적합한 웹 프레임워크로 인정받고 있다. 
     <br />   
     <br />   
     <br />   
