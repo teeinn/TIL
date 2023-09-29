@@ -28,6 +28,8 @@
   * [Fastapi & PostgreSQL deployments in minikube](https://github.com/teeinn/TIL/blob/main/Kubernetes/application_deployment_in_minikube.md)
 * **Gitaction**
   * [tag & branch]()
+* **AWS Sagemaker**
+  * [why choose sagemaker studio over sagemaker notebook instance]()
 
 
 
