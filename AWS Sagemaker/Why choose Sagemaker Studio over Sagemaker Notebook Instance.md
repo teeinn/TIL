@@ -56,8 +56,6 @@ reference: https://dataintegration.info/dive-deep-into-amazon-sagemaker-studio-n
     
     - JupyterServer - JupyterServer app은 **Jupyter 서버를 실행**한다. 도메인 내의 각 사용자는 고유한 전용 jupyterserver app을 실행한다.
     - KernelGateway - KernelGateway app은 Sagemaker Image Container를 실행한 것이다. 각각의 User는 여러 개의 KernelGateway App을 동시에 실행 시킬 수 있다. 위의 Sagemaker Image 설명과 같이 built-in image도 있고, 개인이 Custom image를 만들어 제공할 수도 있다.
-<br/>
-<br/>
 
     일단 사용자가 웹 브라우저를 사용해서 Studio UI에 접속하면, JupyterServer Container 내에서 돌고 있던 notebook server와 HTTPS 연결이 설정된다. 이 JupyterServer Container는 service에서 관리하는 EC2 Instance에서 작동된다. 
     
