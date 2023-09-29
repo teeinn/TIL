@@ -29,7 +29,8 @@
 * **Gitaction**
   * [tag & branch]()
 * **AWS Sagemaker**
-  * [why choose sagemaker studio over sagemaker notebook instance]()
+  * [why choose sagemaker studio over sagemaker notebook instance](https://github.com/teeinn/TIL/blob/main/AWS%20Sagemaker/Why%20choose%20Sagemaker%20Studio%20over%20Sagemaker%20Notebook%20Instance.md)
+  * [Q&A](https://github.com/teeinn/TIL/blob/main/AWS%20Sagemaker/Q%20%26%20A.md)
 
 
 

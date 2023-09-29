@@ -36,21 +36,20 @@ reference: https://dataintegration.info/dive-deep-into-amazon-sagemaker-studio-n
 <br/>
 <br/>
 
-    ---
     Sagemaker image
     
     - Aws ECR에 저장된 Docker Container Image를 가리키는 메타데이터로, 주로 머신러닝 및 딥러닝 framework library 및 다른 종속성을 실행하는데 필요한 정보를 포함한다.
     - Sagemaker studio는 pre-built image를 제공하고, 사용자가 정의한 이미지를 가져와 studio domain에 연결하는 옵션도 제공한다. 이 사용자 정의 이미지는 aws ecr 저장소에 저장되어야 한다. domain 전체에 사용자 정의 이미지를 연결하거나 아니면 특정 사용자 프로필에 연결하는 옵션을 선택할 수도 있다.
 <br/>
 <br/>
-    ---
+
     Studio notebook
     
     - Studio에서 생성한 notebook은 Sagemaker notebook 보다 빠르게 생성되고, 기반이 되는 computing resource는 탄력적으로 변경 가능하며 이는 백그라운드에서 자동으로 이루어진다.
     - 각 사용자가 본인의 home directory를 가질 수 있어 notebook이나 다른 파일들을 저장할 수 있고, 파일을 쉽게 다른 사용자와 공유할 수도 있다.
 <br/>
 <br/>
-    ---
+
     APP
     
     앱은 도메인 내의 user를 위해 **docker container로 구현된** application이다. Studio에서는 두 가지 유형의 앱을 지원한다. 
@@ -68,14 +67,12 @@ reference: https://dataintegration.info/dive-deep-into-amazon-sagemaker-studio-n
 <br/>
 <br/>
 
-    ---
     Terminal Access
     
     notebook 이용 뿐만아니라 JupyterServer app (*system terminal*)과 KernelGateway app (*image terminal*)에 terminal을 붙일 수 있다. 전자의 경우는 notebook server를 확장하기 위한 설치나 file system operation을 수행할 때 사용될 수 있고, 후자의 경우는 컨테이너에 특정 library 설치나 command line에서 스크립트를 돌리고 싶을 때 사용 할 수 있다. 
 <br/>
 <br/>
 
-    ---
     Storage
     
     각 사용자는 domain 하에 amazon EFS(Elastic File System) Volume에서 자체 개인 홈 디렉토리를 생성합니다. 이 File System은 모든 notebook server container와 모든 kernel gateway container에 자동으로 마운트 된다.
@@ -84,14 +81,12 @@ reference: https://dataintegration.info/dive-deep-into-amazon-sagemaker-studio-n
 <br/>
 <br/>
 
-    ---
     Network
     
     studio는 기본적으로 2개의 vpc를 사용하는데, 하나는 studio 자체에서 컨트롤 되고 public internet traffic에 열려있는 vpc가 있다. 다른 하나는 user에 의해 컨트롤 되고, studio domain과 efs volume 간의 encrypted traffic을 사용하는 vpc가 존재한다. 
 <br/>
 <br/>
 
-    ---
     Pricing
     
     Studio 그 자체로는 추가 비용이 발생 하지 않는다. 비용은 사용자가 studio notebooks을 생성했을 때 compute와 storage에 대해 청구된다. compute instance type에 따른 비용 청구 요금이 다르고, efs에 저장된 data file or scripts에 따라 다르다. 
