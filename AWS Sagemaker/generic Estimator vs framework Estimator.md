@@ -4,7 +4,7 @@
     
     1. sagemaker.estimator.Estimator
         1. generic 하게 쓰일 수 있는 estimator class이다. 특정 framework에 한정되지 않고 쓰일 수 있다. 
-        2. 중요하게 다른 점은 아래의 코드와 같이 docker image uri를 파라미터 값으로 전달해줘야 한다. docker image는 pre-builit image일 수도 있고, custom image일 수도 있다. 외부에서 entry point를 지정해 주고 싶으면 관련 파라미터를 추가하면 된다. (reference: https://sagemaker.readthedocs.io/en/stable/api/training/estimators.html)
+        2. 중요하게 다른 점은 아래의 코드와 같이 docker image uri를 파라미터 값으로 전달해줘야 한다. docker image는 pre-builit image일 수도 있고, custom image일 수도 있다. 외부에서 entry point를 지정해 주고 싶으면 관련 파라미터를 추가하면 된다. (reference: https://sagemaker.readthedocs.io/en/stable/api/training/estimators.html, https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers-adapt-your-own-private-registry-estimator.html)
         
         ![Alt text](generic-estimator.png) 
 
