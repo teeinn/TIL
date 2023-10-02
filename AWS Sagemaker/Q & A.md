@@ -5,7 +5,11 @@
 
 3. Studio에서는 training을 돌리기위한 Estimator를 사용할 때 local mode로 전환해서 현재 notebook을 실행 중인 instance에서 돌아가게끔 하는 방법이 없는 것으로 알고 있다. 그렇다면 Studio에서 local mode 같이 돌려볼 수 있는 방법이 따로 존재하는지?
 
-4. estimator의 entrypoint에 지정된 스크립트에서 접근 가능한 컨테이너 환경 변수들 각각의 사용법?
+4. sagemaker pipeline을 사용하게 되면 데이터 사이언티스트들의 생산성을 높일 수 있는지? 
+
+5. pipeline만으로 모든 ci/cd 단계의 구현이 가능한지, 다른 aws service의 사용 없이?
+
+6. ci/cd 각 단계에 대한 template을 ml engineer가 구성하고, 나머지 세부적인 코드 부분은 ds가 진행한다면 효율이 어떻게 될지? ds가 건드려야하는 코드는 preprocessing, training hyperparameter 등 외에는 없는 것인지? 
 
 
 
