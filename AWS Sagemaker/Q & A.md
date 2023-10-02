@@ -11,6 +11,15 @@
 
 6. ci/cd 각 단계에 대한 template을 ml engineer가 구성하고, 나머지 세부적인 코드 부분은 ds가 진행한다면 효율이 어떻게 될지? ds가 건드려야하는 코드는 preprocessing, training hyperparameter 등 외에는 없는 것인지? 
 
+7. studio에서는 로컬 모드가 동작하지 않는다고 하니까, 각 step을 debug 해보려면 notebook instance를 만들어서 작동시켜봐야 하는 것인지? 
+
+8. 현재 저희 프로젝트에 맞는 pipeline template을 따로 만들어서 제공해 주실 수 있는지? 
+
+9. ds가 실험하기에 필수적으로 써야할 서비스가 studio에서 무엇이 있는지? 
+
+10. ds들이 하이퍼파라미터 튜닝을 바로바로 할 수 있게 gui가 제공되는지? 
+
+
 
 
 

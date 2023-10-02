@@ -5,6 +5,10 @@ reference: https://dataintegration.info/dive-deep-into-amazon-sagemaker-studio-n
 <br/>
 
 
+**self-study for sagemaker:** 
+https://github.com/gonsoomoon-ml/Self-Study-On-SageMaker
+
+
 **Jupyter notebook in Sagemaker Notebook Instance 이 실행되는 방식**
 
 - jupyter 노트북은 기본적으로 단일 컴퓨터에 호스팅되고 웹 브라우저를 통해 access 할 수 있다. 하지만 팀이 성장하고 머신 러닝 워크로드가 production으로 이동하게 된다면 여러 가지 **문제점이** 발생 할 수 있다.

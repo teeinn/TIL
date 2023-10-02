@@ -29,5 +29,10 @@
 
 ![Alt text](pipeline.png)
 
-https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-pipelines/tabular/abalone_build_train_deploy/sagemaker-pipelines-preprocess-train-evaluate-batch-transform.html#SageMaker-Pipelines
+https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-pipelines/tabular/abalone_build_train_deploy/sagemaker-pipelines-preprocess-train-evaluate-batch-transform.html#SageMaker-Pipelines (code implementation)
 
+https://www.youtube.com/watch?v=sj9wTbnfSW8
+(unit testing)
+
+https://github.com/gonsoomoon-ml/Self-Study-On-SageMaker/tree/main/MLOps
+(농심 sagemaker architecture)
