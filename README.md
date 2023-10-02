@@ -31,7 +31,7 @@
 * **AWS Sagemaker**
   * [why choose sagemaker studio over sagemaker notebook instance](https://github.com/teeinn/TIL/blob/main/AWS%20Sagemaker/Why%20choose%20Sagemaker%20Studio%20over%20Sagemaker%20Notebook%20Instance.md)
   * [Tensorflow Estimator - train](https://github.com/teeinn/TIL/blob/main/AWS%20Sagemaker/Tensorflow%20Estimator%20-%20train.md)
-  * [generic Estimator vs framework Estimator](https://github.com/teeinn/TIL/blob/main/AWS%20Sagemaker/multiple%20ways%20to%20use%20container%20image%20for%20training.md)
+  * [generic Estimator vs framework Estimator](https://github.com/teeinn/TIL/blob/main/AWS%20Sagemaker/generic%20Estimator%20vs%20framework%20Estimator.md)
   * [endpoint vs batch-transform](https://github.com/teeinn/TIL/blob/main/AWS%20Sagemaker/endpoint%20vs%20batch-transform.md)
   * [Q&A](https://github.com/teeinn/TIL/blob/main/AWS%20Sagemaker/Q%20%26%20A.md)
 
