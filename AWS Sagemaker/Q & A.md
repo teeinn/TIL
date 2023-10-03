@@ -13,11 +13,17 @@
 
 7. studio에서는 로컬 모드가 동작하지 않는다고 하니까, 각 step을 debug 해보려면 notebook instance를 만들어서 작동시켜봐야 하는 것인지? 
 
-8. 현재 저희 프로젝트에 맞는 pipeline template을 따로 만들어서 제공해 주실 수 있는지? 
+8. 현재 프로젝트에 맞는 pipeline template을 따로 만들어서 제공해 주실 수 있는지? 
 
-9. ds가 실험하기에 필수적으로 써야할 서비스가 studio에서 무엇이 있는지? 
+9. 현재 사용중인 tableau를 sagemaker와 통합할 수 있는지? 
 
 10. ds들이 하이퍼파라미터 튜닝을 바로바로 할 수 있게 gui가 제공되는지? 
+
+
+--------------------------------------
+- 현재 pipeline에서 eventbridge를 써야 된다는 이유가 무엇이 있었지? 
+- 현재 pipeline에서 ds들이 겪는 pain point를 정리 
+- online streaming이라던가 강화학습이 안된다는 포스트를 봤는데 우리는 필요한지? 
 
 
 
