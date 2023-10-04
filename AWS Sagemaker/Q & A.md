@@ -23,6 +23,8 @@
 
 12. training 후 prediction이 바로 이루어지는 구조인데, training 컨테이너와 serving 컨테이너 따로 만들 수 가 없는거 아닌가? 하나의 컨테이너에 두 가지를 모두 할 수 있나? 
 
+13. batch transofrm에서 데이터 묶음을 보냈을 때, 내부적으로는 real-time endpoint가 돌면서 건by건으로 처리하는 것으로 보여진다. 이를 mini-batch 처리를 해주는 방법이 따로 있는가? 
+
 --------------------------------------
 - 현재 pipeline에서 eventbridge를 써야 된다는 이유가 무엇이 있었지? 
 - 현재 pipeline에서 ds들이 겪는 pain point를 정리 
